@@ -16,11 +16,11 @@
     },
     {
       "anchor": {
-        "x": 11.602820512820513,
+        "x": 11.509935897435897,
         "y": 3.9940384615384614
       },
       "prevControl": {
-        "x": 10.602820512820513,
+        "x": 10.509935897435897,
         "y": 3.9940384615384614
       },
       "nextControl": null,
@@ -31,7 +31,14 @@
   "rotationTargets": [],
   "constraintZones": [],
   "pointTowardsZones": [],
-  "eventMarkers": [],
+  "eventMarkers": [
+    {
+      "name": "ClimberDown",
+      "waypointRelativePos": 0.0,
+      "endWaypointRelativePos": 0.5027685492801786,
+      "command": null
+    }
+  ],
   "globalConstraints": {
     "maxVelocity": 3.0,
     "maxAcceleration": 3.0,
@@ -42,10 +49,10 @@
   },
   "goalEndState": {
     "velocity": 0,
-    "rotation": 0.0
+    "rotation": 180.0
   },
   "reversed": false,
-  "folder": null,
+  "folder": "CentreBargeLeave",
   "idealStartingState": {
     "velocity": 0,
     "rotation": 0.0

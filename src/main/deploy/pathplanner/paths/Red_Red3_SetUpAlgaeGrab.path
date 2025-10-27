@@ -1,0 +1,70 @@
+{
+  "version": "2025.0",
+  "waypoints": [
+    {
+      "anchor": {
+        "x": 9.792102272727272,
+        "y": 2.9031960227272724
+      },
+      "prevControl": null,
+      "nextControl": {
+        "x": 10.589829545454545,
+        "y": 2.893224431818182
+      },
+      "isLocked": false,
+      "linkedName": null
+    },
+    {
+      "anchor": {
+        "x": 12.16534090909091,
+        "y": 6.223735795454545
+      },
+      "prevControl": {
+        "x": 10.687079252005942,
+        "y": 6.308207890145114
+      },
+      "nextControl": {
+        "x": 13.910369318181818,
+        "y": 6.124019886363636
+      },
+      "isLocked": false,
+      "linkedName": null
+    },
+    {
+      "anchor": {
+        "x": 15.35625,
+        "y": 5.874730113636364
+      },
+      "prevControl": {
+        "x": 16.094147727272723,
+        "y": 5.864758522727274
+      },
+      "nextControl": null,
+      "isLocked": false,
+      "linkedName": null
+    }
+  ],
+  "rotationTargets": [],
+  "constraintZones": [],
+  "pointTowardsZones": [],
+  "eventMarkers": [],
+  "globalConstraints": {
+    "maxVelocity": 3.0,
+    "maxAcceleration": 3.0,
+    "maxAngularVelocity": 540.0,
+    "maxAngularAcceleration": 720.0,
+    "nominalVoltage": 12.0,
+    "unlimited": false
+  },
+  "goalEndState": {
+    "velocity": 0,
+    "rotation": 0.7848246029919116
+  },
+  "reversed": false,
+  "folder": "RedAlgaeGrabPaths",
+  "idealStartingState": {
+    "velocity": 0,
+    "rotation": 0.0
+  },
+  "useDefaultConstraints": true
+}

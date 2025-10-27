@@ -3,25 +3,41 @@
   "waypoints": [
     {
       "anchor": {
-        "x": 6.04,
-        "y": 1.135
+        "x": 7.708039772727274,
+        "y": 4.95734375
       },
       "prevControl": null,
       "nextControl": {
-        "x": 6.04,
-        "y": 0.135
+        "x": 6.621136363636365,
+        "y": 4.95734375
       },
       "isLocked": false,
       "linkedName": null
     },
     {
       "anchor": {
-        "x": 2.541410256410256,
-        "y": 2.900064102564103
+        "x": 5.933096590909091,
+        "y": 1.8761221590909098
       },
       "prevControl": {
-        "x": 3.037948717948715,
-        "y": 2.912275641025641
+        "x": 6.331960227272727,
+        "y": 1.9160085227272725
+      },
+      "nextControl": {
+        "x": 4.793675392917144,
+        "y": 1.7621800392917177
+      },
+      "isLocked": false,
+      "linkedName": null
+    },
+    {
+      "anchor": {
+        "x": 2.1339204545454544,
+        "y": 2.1054687499999987
+      },
+      "prevControl": {
+        "x": 2.991477272727283,
+        "y": 2.0855255681818172
       },
       "nextControl": null,
       "isLocked": false,
@@ -42,13 +58,13 @@
   },
   "goalEndState": {
     "velocity": 0,
-    "rotation": 0.0
+    "rotation": -179.02897806892085
   },
   "reversed": false,
-  "folder": null,
+  "folder": "BlueAlgaeGrabPaths",
   "idealStartingState": {
     "velocity": 0,
-    "rotation": -90.0
+    "rotation": 0.0
   },
   "useDefaultConstraints": true
 }

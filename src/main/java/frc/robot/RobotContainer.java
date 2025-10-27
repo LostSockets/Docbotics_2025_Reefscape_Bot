@@ -20,6 +20,8 @@ import edu.wpi.first.cameraserver.CameraServer;
 import edu.wpi.first.wpilibj2.command.Command;
 import edu.wpi.first.wpilibj2.command.CommandScheduler;
 import edu.wpi.first.wpilibj2.command.InstantCommand;
+import edu.wpi.first.wpilibj2.command.RepeatCommand;
+
 import edu.wpi.first.wpilibj2.command.RunCommand;
 import edu.wpi.first.wpilibj2.command.ScheduleCommand;
 import edu.wpi.first.wpilibj2.command.button.CommandXboxController;
@@ -63,7 +65,7 @@ public class RobotContainer {
 
   public RobotContainer() {   
 
-    boolean isComp = false; // Change for competitions
+    boolean isComp = true; // Change for competitions
     
 
     //Register ALL named commands here!
@@ -109,9 +111,10 @@ public class RobotContainer {
 
   private void configureBindings() {
     //new JoystickButton(driverJoyStick, OIConstants.kMoveArmIdx ).whileTrue(new MoveArmCMD(armsub));
-    new JoystickButton(joyOperator, ClimberConstants.CLIMBER_UP).whileTrue(new ClimberCmd(climberSubsystem, -ClimberConstants.CLIMBER_SPEED)); // climber up
-    new JoystickButton(joyOperator, ClimberConstants.CLIMBER_DOWN).whileTrue(new ClimberCmd(climberSubsystem, ClimberConstants.CLIMBER_SPEED)); // climber down
-    new JoystickButton(driverJoyStick, OIConstants.kDriveGyroResetButtonIdx).whileTrue(new ResetHeadingCMD(swerveSub)); // reset gyro?
+    new JoystickButton(joyOperator, ClimberConstants.CLIMBER_UP).whileTrue(new ClimberCmd(climberSubsystem, -ClimberConstants.CLIMBER_SPEED)); // climber up y
+    new JoystickButton(joyOperator, ClimberConstants.CLIMBER_DOWN).whileTrue(new ClimberCmd(climberSubsystem, ClimberConstants.CLIMBER_SPEED)); // climber down x
+    new JoystickButton(driverJoyStick, OIConstants.kDriveGyroResetButtonIdx).whileTrue(new ResetHeadingCMD(swerveSub)); // reset gyro? b
+    //new JoystickButton(driverJoyStick, OIConstants.LOCK).whileTrue(new RepeatCommand(new InstantCommand(swerveSub::lock, swerveSub)));
 
     
   }

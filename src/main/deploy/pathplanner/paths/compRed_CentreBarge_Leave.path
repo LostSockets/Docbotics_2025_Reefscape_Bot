@@ -3,12 +3,12 @@
   "waypoints": [
     {
       "anchor": {
-        "x": 7.577820512820511,
+        "x": 9.961858974358973,
         "y": 3.9940384615384614
       },
       "prevControl": null,
       "nextControl": {
-        "x": 6.875949759004357,
+        "x": 10.961858974358973,
         "y": 3.9940384615384614
       },
       "isLocked": false,
@@ -16,12 +16,12 @@
     },
     {
       "anchor": {
-        "x": 6.091666666666666,
+        "x": 11.509935897435897,
         "y": 3.9940384615384614
       },
       "prevControl": {
-        "x": 5.8425302271054464,
-        "y": 4.014799831501898
+        "x": 10.509935897435897,
+        "y": 3.9940384615384614
       },
       "nextControl": null,
       "isLocked": false,
@@ -31,7 +31,14 @@
   "rotationTargets": [],
   "constraintZones": [],
   "pointTowardsZones": [],
-  "eventMarkers": [],
+  "eventMarkers": [
+    {
+      "name": "ClimberDown",
+      "waypointRelativePos": 0.0,
+      "endWaypointRelativePos": 0.5027685492801786,
+      "command": null
+    }
+  ],
   "globalConstraints": {
     "maxVelocity": 3.0,
     "maxAcceleration": 3.0,
@@ -45,7 +52,7 @@
     "rotation": 0.0
   },
   "reversed": false,
-  "folder": null,
+  "folder": "CentreBargeLeave",
   "idealStartingState": {
     "velocity": 0,
     "rotation": 0.0

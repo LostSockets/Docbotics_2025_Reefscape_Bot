@@ -104,6 +104,8 @@ public final class Constants {
         public static final int kDriverXAxis = 0;
         public static final int kDriverYAxis = 1;
         public static final int kDriverRotAxis = 4;
+
+        public static final int LOCK = 1;
   
 
         public static final int kDriverFieldOrientedButtonIdx = 1; //A button
@@ -142,11 +144,11 @@ public final class Constants {
   public static class ClimberConstants {
     public static final int kClimberMotorPort1 = 26;
     public static final int kClimberMotorPort2 = 25;
-    public static final Double kClimberSpeedPercentage = 0.5;
+    public static final Double kClimberSpeedPercentage = 0.6;
 
     public static final int CLIMBER_DOWN = 4;
     public static final int CLIMBER_UP = 3;
-    public static final double CLIMBER_SPEED = 0.5;
+    public static final double CLIMBER_SPEED = 0.6;
   }
 
   public static class GyroConstants {
